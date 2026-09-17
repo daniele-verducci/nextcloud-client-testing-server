@@ -12,7 +12,7 @@ Just clone this repository in a folder
 
 Use the start, stop and rebuild scripts.
 
-I.e., to start the master branch version on Nextcloud:
+I.e., to start the master branch version of Nextcloud:
 ```
 ./rebuild.sh ephemeral-master
 ./start.sh ephemeral-master
@@ -56,7 +56,7 @@ You can install the apps from the admin interface as usual, or you can tweak the
 - Note the list of already installed apps (comment them with # if you don't want them)
 - Add an app using the usual `occ` command
 
-> I.e., for adding Nutes app add: `RUN su www-data -c "php /var/www/html/occ app:enable -f notes"`
+> I.e., for adding Notes app add: `RUN su www-data -c "php /var/www/html/occ app:enable -f notes"`
 
 ## Troubleshooting
 
