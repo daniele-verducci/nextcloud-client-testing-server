@@ -25,6 +25,13 @@ You can start a specific version of Nextcloud as well:
 ./start.sh ephemeral-stable32
 ```
 
+You can start it on another port adding it at the end:
+
+```
+./start.sh ephemeral-stable32 8888
+```
+
+
 To obtain the list of supported versions:
 ```
 docker compose config --services
